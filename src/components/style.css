@@ -1,0 +1,27 @@
+.locationList {
+    height: 85vh;
+    overflow: auto;
+}
+
+@media (max-width: 64em) {
+    .locationList {
+        /*background: green;*/
+        max-height: 40vh;
+        margin-bottom: 20px;
+    }
+}
+
+.forecastExtendedCont {
+    padding: 20px 0;
+}
+.forecasTitle {
+    color: rgb(250, 17, 0);
+    text-align: center;
+}
+.ciudadForecast {
+    color: #4e4d4d;
+}
+
+.cargando_pe {
+    text-align: center;
+}
